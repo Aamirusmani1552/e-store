@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import exampleImg from "../../public/banner.jpg";
 import {
@@ -5,6 +7,7 @@ import {
   TypographyH1,
   TypographyLarge,
 } from "../../components/custom/Typography";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -42,7 +45,7 @@ export default function Home() {
             </svg>
           </TypographyExtraLarge>
           <TypographyLarge>
-            Your one-stop destination for all things fabulous.
+            <motion.p  >Your one-stop destination for all things fabulous.</motion.p>
           </TypographyLarge>
         </div>
       </section>
