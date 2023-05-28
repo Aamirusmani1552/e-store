@@ -18,7 +18,7 @@ export const TypographyExtraLarge: FC<Props> = ({ children }): ReactElement => {
 
 export const TypographyH2: FC<Props> = ({ children }): ReactElement => {
   return (
-    <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+    <h2 className="scroll-m-20 pb-2 text-3xl font-bold tracking-tight transition-colors first:mt-0">
       {children}
     </h2>
   );
